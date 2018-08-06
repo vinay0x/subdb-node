@@ -1,0 +1,28 @@
+{
+  "name": "subdb-node",
+  "version": "0.1.41",
+  "description": "A wrapper for TheSubDB.com API. ",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "subtitle downloader",
+    "download subtitles",
+    "subliminal",
+    "thesubdb",
+    "subdb"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinay Chandran",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-progress": "^3.0.0"
+  },
+  "bin": {
+    "subdb": "lib/bin.js"
+  }
+}
