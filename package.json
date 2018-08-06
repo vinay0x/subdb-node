@@ -24,5 +24,14 @@
   },
   "bin": {
     "subdb": "lib/bin.js"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaychandranvs/subdb-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinaychandranvs/subdb-node/issues"
+  },
+  "homepage": "https://github.com/vinaychandranvs/subdb-node#readme"
 }
