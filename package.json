@@ -1,6 +1,6 @@
 {
   "name": "subdb-node",
-  "version": "0.1.50",
+  "version": "0.1.51",
   "description": "A wrapper for TheSubDB.com API. ",
   "main": "lib/index.js",
   "directories": {
