@@ -11,7 +11,7 @@ SubDB-Node is a simple wrapper for the awesome thesubdb.com API. The package exp
 const subdb = require('node-subdb')
 subdb.download('path-to-video-file')
 ```
-The download function is asynchronous. You can `await` it until it's complete.
+The function returns a Promise which resolves to `true` if a subtitle is found and downloaded. It returns `null` if no subtitles were found.
 
 ## Commandline Usage
 `subdb <filePath>`
