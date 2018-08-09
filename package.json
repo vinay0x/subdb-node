@@ -19,6 +19,7 @@
   "author": "Vinay Chandran",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "request": "^2.87.0",
     "request-progress": "^3.0.0"
   },
